@@ -1,0 +1,33 @@
+HexIntegerLiteral
+	:	HexNumeral IntegerTypeSuffix?
+	;
+	
+HexNumeral
+	:	'0' [xX] HexDigits
+	;
+
+	
+HexDigits
+	:	HexDigit (HexDigitsAndUnderscores? HexDigit)?
+	;
+	
+
+	
+HexDigitsAndUnderscores
+	:	HexDigitOrUnderscore+
+	;
+	
+HexDigitOrUnderscore
+	:	HexDigit
+	|	'_'
+	;
+	
+HexDigit
+	:	[0-9a-fA-F]
+	;
+	
+IntegerTypeSuffix
+	:	[lL]
+	;
+	
+	
