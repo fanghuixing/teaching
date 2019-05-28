@@ -22,172 +22,13 @@
   
 </div>
 
-  <div class="col-md-6" id="cp">
-    <h2>1. Compilers(2018年春季学期)</h2>
-    <p>A compiler is computer software that transforms computer code written in one programming language (the source language) into another programming language (the target language). </p>
- 
- 
-  <div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Slides</h3>
-        </div>
-        <div class="panel-body">
-			<p>Lecture-1: 引论 (<a href="slides/cp/lec-1.pdf">PDF</a>)</p>
-			<p>Lecture-2: 编译基础知识 (<a href="slides/cp/lec-2.pdf">PDF, 最后修改时间:2018-05-30</a>)</p>
-			<p>Lecture-3: 词法分析 (<a href="slides/cp/lec-3.pdf">PDF, 最后修改时间:2018-05-02</a>)</p>
-			<p>Lecture-4: 自上而下语法分析 (<a href="slides/cp/lec-4.pdf">PDF, 最后修改时间:2018-05-14</a>)</p>
-			<p>Lecture-5: 算符优先分析法 (<a href="slides/cp/lec-5.pdf">PDF</a>)</p>
-			<p>Lecture-6: LR语法分析技术 (<a href="slides/cp/lec-6-1.pdf">PDF-1</a>, <a href="slides/cp/lec-6-2.pdf">PDF-2</a>, <a href="slides/cp/lec-6-3.pdf">PDF-3</a>, <a href="slides/cp/lec-6-4.pdf">PDF-4</a>)</p>
-			<p>Lecture-7: 语法制导翻译及中间代码生成 (<a href="slides/cp/lec-7.pdf">PDF, 最后修改时间:2018-06-14</a>)</p>
-			<p>Lecture-8: 运行时数据区的管理 (<a href="slides/cp/lec-8.pdf">PDF, 最后修改时间:2018-06-08</a>)</p>
-			<p>Lecture-9: 代码生成 (<a href="slides/cp/lec-9.pdf">PDF, 最后修改时间:2018-06-27</a>)</p>
-		</div>
-   </div>
-   
-    
-  <div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Assignments</h3>
-        </div>
-        <div class="panel-body">
-			<p>1. 画出一个DFA的状态转换图, 并编写程序实现该DFA模拟算法 (时间: 2018-04-28)</p>	
-            <p>2. 编程实现子集构造算法，实现NFA到DFA的转换 (时间: 2018-05-02)</p>	
-            <p>3. 编程实现McMaughton-Yamada-Thompson算法，实现由正规式构造NFA (时间: 2018-05-02)</p>	
-			<p>4. 编程实现Follow集合的计算 (时间: 2018-05-09)</p>	
-			<p>5. 编程实现LR(0)项集族的计算 (时间: 2018-05-23)</p>	
-			<p>6. 基于翻译方案，为表达式（a）+ b 画出语法分析树和抽象语法树 (时间: 2018-06-08)
-			<img class="img-responsive" src="slides/cp/A-6.jpg"  alt="作业6：基于翻译方案，为表达式“（a）+b”画出语法分析树和语法树" />
-			</p>
-            <p>7. 撰写读书报告（3页A4纸,word）: 精读函数getReg的设计部分内容, 谈谈自己的体会。</p>				
-		</div>
-   </div>
-   
-   <div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Experiments(<a href="CP-Exp-Report.doc"><font color="red"><strong>报告模板</strong></font></a>)</h3>
-        </div>
-        <div class="panel-body">
-			<table class="table table-striped">
-				<caption></caption>
-				   <thead>
-					  <tr>
-						 <th>实验名称</th>
-						 <th>时间</th>
-						 <th>实验目的与要求</th>
-					  </tr>
-				   </thead>
-				   <tbody>
-					  <tr>
-						 <td>词法分析程序设计</td>
-						 <td>2018-05-17(第六、七节)~2018-05-24（第六、七节）</td>
-						 <td>设计一个词法分析程序实现对高级语言中的一种词素转成机器内码（二元组）的表示方式, （分析<a href="exp/HexIntegerLiteral.txt">Java语言中的16进制整数</a>）</td>
-					  </tr>
-					  <tr>
-						 <td>递归下降分析程序设计及语法分析中的错误处理</td>
-						 <td>2018-05-24（第八、九节）</td>
-						 <td>设计一个递归下降分析程序实现对算术运算表达式进行语法分析并能报告程序中的错误信息</td>
-					  </tr>
-					  <tr>
-						  <td>预测分析程序设计及语法分析中的错误处理</td>
-						  <td>2018-05-31（第六、七节）~2018-06-07（第六、七节）</td>
-						  <td>构造算术运算表达式的预测分析表，设计一个预测分析程序实现对算术运算表达式进行语法分析并能报告程序中的错误信息</td>
-					  </tr>
-					  <tr>
-						  <td>优先分析表及优先函数的使用</td>
-						  <td>2018-06-14（第六、七节）</td>
-						  <td>设计一个程序利用优先分析表和优先函数实现算术运算表达式的计算，并实现优先分析表到优先函数的自动生成</td>
-					  </tr>
-					  <tr>
-						  <td>语法制导翻译与中间代码四元式和目标程序的生成</td>
-						  <td>2018-06-21（第六、七、八、九节）</td>
-						  <td>编写一个简单的编译程序，将赋值语句翻译成中间代码四元式或者汇编程序</td>
-					  </tr>		  
-				   </tbody>
-			</table>
-		</div>
-		
-   </div>
-   
-   
-	
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">References     </h3>
-        </div>
-        <div class="panel-body">
-		    <ul class="list-group">
-               <li class="list-group-item">Alfred V.Aho, Monica S.Lam, Ravi Sethi, Jeffrey D.Ullman:Compilers: Principle, Techniques and Tools, Second Edition</li>			
-			   <li class="list-group-item">薛联凤、秦振松，《编译原理及编译程序构造》（第二版），东南大学出版社，2013</li>
-			   <li class="list-group-item">吕映芝、张素琴等编著，《编译原理》，清华大学出版社，2005</li>
-			   <li class="list-group-item">陈火旺等编著，《程序设计语言与编译原理（第3版）》，国防工业出版社，2006</li>
-			   <li class="list-group-item">Alfred V.Aho等:《编译原理(本科教学版)》(第2版)，机械工业出版社，译者：赵建华，‎郑滔，‎戴新宇，2009</li>
-			   <li class="list-group-item">陈意云、张昱：《编译原理》（第3版），高等教育出版社，2014</li>			   
-			   <li class="list-group-item">John R. Levine:《flex & bison》，O’Reilly Media, Inc.，2009</li>	
-			   <li class="list-group-item">编译器设计 （Engineering a Compiler, Second Edition）<a href="https://share.weiyun.com/5JJ7wTZ">下载</a>  [强烈推荐，下次有机会用这本书做课本]</li>
-			</ul>            
-		</div>
-    </div>
-	<div class="panel panel-default" id="cpexam" relative="true">
-		<div class="panel-heading">
-			<h3 class="panel-title">Exam     </h3>
-        </div>
-        <div class="panel-body">
-		    <ul class="list-group">
-               <li class="list-group-item"><a href="slides/cp/A-Exam.pdf">Test Paper-A</a> and the <a href="slides/cp/A-Exam-Answer.pdf">Answer</a> (上传时间: 2018-07-10, 16:30)</li>						
-			</ul>            
-		</div>
-    </div>		
-  </div>
-  
-   <div class="col-md-6" id="fav" >
-    <h2>2. Formal Analysis and Verification</h2>
-    <p>In the research area of hardware and software systems, formal analysis and verification is the process of proving, checking 
-	    or analyzing the correctness and performance of a system with respect to formal specifications or requirements.</p>
-    
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Slides     </h3>
-        </div>
-        <div class="panel-body">
-            <p>Lecture-1: Propositional Logic (<a href="slides/fav/1-Propositional-Logic.pdf">PDF</a>,  
-			<a href="slides/fav/source/1.zip">Latex</a>)</p>
-			<p>Lecture-2: First-order Logic (<a href="slides/fav/2-First-order-Logic.pdf">PDF</a>, <a href="slides/fav/source/2.zip">Latex</a>)</p>
-			<p>Lecture-3: Linear Temporal Logic (<a href="slides/fav/3-Linear-Temporal-Logic.pdf">PDF</a>, <a href="slides/fav/source/3.zip">Latex</a>)</p>
-			<p>Lecture-4: Computation Tree Logic 
-			<ul>
-               <li><a href="slides/fav/4-Computation-Tree-Logic-1.pdf">PDF-4-1</a>, <a href="slides/fav/source/4-1.zip">Latex-4-1</a>;</li>
-			   <li><a href="slides/fav/4-Computation-Tree-Logic-2.pdf">PDF-4-2</a>, <a href="slides/fav/source/4-2.zip">Latex-4-2</a>; </li>
-			   <li><a href="slides/fav/4-Computation-Tree-Logic-3.pdf">PDF-4-3</a>, <a href="slides/fav/source/4-3.zip">Latex-4-3</a>. </li>
-			</ul>            
-			</p>
-			<p>Lecture-5: Equivalences and Abstraction (<a href="">PDF</a>)</p>
-			<p>Lecture-6: Partial Order Reduction (<a href="">PDF</a>)</p>
-			<p>Lecture-7: Timed Automata (<a href="">PDF</a>)</p>
-			<p>Lecture-8: Hybrid Automata (<a href="">PDF</a>)</p>   
-		</div>
-    </div>	
-	
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">References     </h3>
-        </div>
-        <div class="panel-body">
-		    <ul class="list-group">
-               <li class="list-group-item">Christel Baier and Joost-Pieter Katoen: Principles of Model Checking </li>
-			   <li class="list-group-item">Aaron R. Bradley and Zohar Manna: The Calculus of Computation </li>
-			   <li class="list-group-item">Mordechai Ben-Ari: Aaron R. Bradley and Zohar Manna: Mathematical Logic for Computer Science </li>
-			</ul>            
-		</div>
-    </div>	
-	
-</div>
-<div class="col-md-6" id="np" >
-    <h2>3. 计算机网络编程(Computer Network Programming)</h2>
+<div class="col-md-12" id="np" >
+    <h2>计算机网络编程(Computer Network Programming， 2019春)</h2>
     <p></p>
     
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h3 class="panel-title">课件     </h3>
+			<h3 class="panel-title">课件    (<a href="https://github.com/fanghuixing/NetworkProgramming">Source Code</a>)</h3>			
         </div>
         <div class="panel-body">
             <p>第1章: 绪论 (<a href="slides/np/np-1.pdf">PDF</a>)</p>
@@ -204,7 +45,9 @@
 			<p>第12章：基于TCP的客户机/服务器程序 (<a href="slides/np/np-12.pdf">PDF</a>)</p>
 			<p>第13章：基于UDP的客户机/服务器程序 (<a href="slides/np/np-13.pdf">PDF</a>)</p>
 			<p>第14章：FTP客户机程序设计 (<a href="slides/np/np-14.pdf">PDF</a>)</p>
+			<p>第15章：POP客户机程序设计 (<a href="slides/np/np-15.pdf">PDF</a>)</p>
 		</div>
+		
     </div>	
 	
 	
@@ -325,6 +168,166 @@
 			   <li class="list-group-item"> Windows Sockets 2 DOC, https://docs.microsoft.com/en-us/windows/desktop/api/_winsock/</li>			   
 			   <li class="list-group-item"> 吴英，《计算机网络软件编程指导书(第2版)》，清华大学出版社，ISBN: 9787302481317</li>
                <li class="list-group-item"> 刘琰, 王清贤, 刘龙, 陈熹《Windows网络编程》，机械工业出版社，ISBN: 9787111441960 </li>
+			</ul>            
+		</div>
+    </div>	
+	
+</div>
+
+
+  <div class="col-md-12" id="cp">
+    <h2>Compilers(2018年春季学期)</h2>
+    <p>A compiler is computer software that transforms computer code written in one programming language (the source language) into another programming language (the target language). </p>
+ 
+ 
+  <div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Slides</h3>
+        </div>
+        <div class="panel-body">
+			<p>Lecture-1: 引论 (<a href="slides/cp/lec-1.pdf">PDF</a>)</p>
+			<p>Lecture-2: 编译基础知识 (<a href="slides/cp/lec-2.pdf">PDF, 最后修改时间:2018-05-30</a>)</p>
+			<p>Lecture-3: 词法分析 (<a href="slides/cp/lec-3.pdf">PDF, 最后修改时间:2018-05-02</a>)</p>
+			<p>Lecture-4: 自上而下语法分析 (<a href="slides/cp/lec-4.pdf">PDF, 最后修改时间:2018-05-14</a>)</p>
+			<p>Lecture-5: 算符优先分析法 (<a href="slides/cp/lec-5.pdf">PDF</a>)</p>
+			<p>Lecture-6: LR语法分析技术 (<a href="slides/cp/lec-6-1.pdf">PDF-1</a>, <a href="slides/cp/lec-6-2.pdf">PDF-2</a>, <a href="slides/cp/lec-6-3.pdf">PDF-3</a>, <a href="slides/cp/lec-6-4.pdf">PDF-4</a>)</p>
+			<p>Lecture-7: 语法制导翻译及中间代码生成 (<a href="slides/cp/lec-7.pdf">PDF, 最后修改时间:2018-06-14</a>)</p>
+			<p>Lecture-8: 运行时数据区的管理 (<a href="slides/cp/lec-8.pdf">PDF, 最后修改时间:2018-06-08</a>)</p>
+			<p>Lecture-9: 代码生成 (<a href="slides/cp/lec-9.pdf">PDF, 最后修改时间:2018-06-27</a>)</p>
+		</div>
+   </div>
+   
+    
+  <div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Assignments</h3>
+        </div>
+        <div class="panel-body">
+			<p>1. 画出一个DFA的状态转换图, 并编写程序实现该DFA模拟算法 (时间: 2018-04-28)</p>	
+            <p>2. 编程实现子集构造算法，实现NFA到DFA的转换 (时间: 2018-05-02)</p>	
+            <p>3. 编程实现McMaughton-Yamada-Thompson算法，实现由正规式构造NFA (时间: 2018-05-02)</p>	
+			<p>4. 编程实现Follow集合的计算 (时间: 2018-05-09)</p>	
+			<p>5. 编程实现LR(0)项集族的计算 (时间: 2018-05-23)</p>	
+			<p>6. 基于翻译方案，为表达式（a）+ b 画出语法分析树和抽象语法树 (时间: 2018-06-08)，<a href="slides/cp/A-6.jpg">查看</a>			
+			</p>
+            <p>7. 撰写读书报告（3页A4纸,word）: 精读函数getReg的设计部分内容, 谈谈自己的体会。</p>				
+		</div>
+   </div>
+   
+   <div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Experiments(<a href="CP-Exp-Report.doc"><font color="red"><strong>报告模板</strong></font></a>)</h3>
+        </div>
+        <div class="panel-body">
+			<table class="table table-striped">
+				<caption></caption>
+				   <thead>
+					  <tr>
+						 <th>实验名称</th>
+						 <th>时间</th>
+						 <th>实验目的与要求</th>
+					  </tr>
+				   </thead>
+				   <tbody>
+					  <tr>
+						 <td>词法分析程序设计</td>
+						 <td>2018-05-17(第六、七节)~2018-05-24（第六、七节）</td>
+						 <td>设计一个词法分析程序实现对高级语言中的一种词素转成机器内码（二元组）的表示方式, （分析<a href="exp/HexIntegerLiteral.txt">Java语言中的16进制整数</a>）</td>
+					  </tr>
+					  <tr>
+						 <td>递归下降分析程序设计及语法分析中的错误处理</td>
+						 <td>2018-05-24（第八、九节）</td>
+						 <td>设计一个递归下降分析程序实现对算术运算表达式进行语法分析并能报告程序中的错误信息</td>
+					  </tr>
+					  <tr>
+						  <td>预测分析程序设计及语法分析中的错误处理</td>
+						  <td>2018-05-31（第六、七节）~2018-06-07（第六、七节）</td>
+						  <td>构造算术运算表达式的预测分析表，设计一个预测分析程序实现对算术运算表达式进行语法分析并能报告程序中的错误信息</td>
+					  </tr>
+					  <tr>
+						  <td>优先分析表及优先函数的使用</td>
+						  <td>2018-06-14（第六、七节）</td>
+						  <td>设计一个程序利用优先分析表和优先函数实现算术运算表达式的计算，并实现优先分析表到优先函数的自动生成</td>
+					  </tr>
+					  <tr>
+						  <td>语法制导翻译与中间代码四元式和目标程序的生成</td>
+						  <td>2018-06-21（第六、七、八、九节）</td>
+						  <td>编写一个简单的编译程序，将赋值语句翻译成中间代码四元式或者汇编程序</td>
+					  </tr>		  
+				   </tbody>
+			</table>
+		</div>
+		
+   </div>
+   
+   
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">References     </h3>
+        </div>
+        <div class="panel-body">
+		    <ul class="list-group">
+               <li class="list-group-item">Alfred V.Aho, Monica S.Lam, Ravi Sethi, Jeffrey D.Ullman:Compilers: Principle, Techniques and Tools, Second Edition</li>			
+			   <li class="list-group-item">薛联凤、秦振松，《编译原理及编译程序构造》（第二版），东南大学出版社，2013</li>
+			   <li class="list-group-item">吕映芝、张素琴等编著，《编译原理》，清华大学出版社，2005</li>
+			   <li class="list-group-item">陈火旺等编著，《程序设计语言与编译原理（第3版）》，国防工业出版社，2006</li>
+			   <li class="list-group-item">Alfred V.Aho等:《编译原理(本科教学版)》(第2版)，机械工业出版社，译者：赵建华，‎郑滔，‎戴新宇，2009</li>
+			   <li class="list-group-item">陈意云、张昱：《编译原理》（第3版），高等教育出版社，2014</li>			   
+			   <li class="list-group-item">John R. Levine:《flex & bison》，O’Reilly Media, Inc.，2009</li>	
+			   <li class="list-group-item">编译器设计 （Engineering a Compiler, Second Edition）<a href="https://share.weiyun.com/5JJ7wTZ">下载</a>  [强烈推荐，下次有机会用这本书做课本]</li>
+			</ul>            
+		</div>
+    </div>
+	<div class="panel panel-default" id="cpexam" relative="true">
+		<div class="panel-heading">
+			<h3 class="panel-title">Exam     </h3>
+        </div>
+        <div class="panel-body">
+		    <ul class="list-group">
+               <li class="list-group-item"><a href="slides/cp/A-Exam.pdf">Test Paper-A</a> and the <a href="slides/cp/A-Exam-Answer.pdf">Answer</a> (上传时间: 2018-07-10, 16:30)</li>						
+			</ul>            
+		</div>
+    </div>		
+  </div>
+  
+   <div class="col-md-12" id="fav" >
+    <h2>Formal Analysis and Verification</h2>
+    <p>In the research area of hardware and software systems, formal analysis and verification is the process of proving, checking 
+	    or analyzing the correctness and performance of a system with respect to formal specifications or requirements.</p>
+    
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Slides     </h3>
+        </div>
+        <div class="panel-body">
+            <p>Lecture-1: Propositional Logic (<a href="slides/fav/1-Propositional-Logic.pdf">PDF</a>,  
+			<a href="slides/fav/source/1.zip">Latex</a>)</p>
+			<p>Lecture-2: First-order Logic (<a href="slides/fav/2-First-order-Logic.pdf">PDF</a>, <a href="slides/fav/source/2.zip">Latex</a>)</p>
+			<p>Lecture-3: Linear Temporal Logic (<a href="slides/fav/3-Linear-Temporal-Logic.pdf">PDF</a>, <a href="slides/fav/source/3.zip">Latex</a>)</p>
+			<p>Lecture-4: Computation Tree Logic 
+			<ul>
+               <li><a href="slides/fav/4-Computation-Tree-Logic-1.pdf">PDF-4-1</a>, <a href="slides/fav/source/4-1.zip">Latex-4-1</a>;</li>
+			   <li><a href="slides/fav/4-Computation-Tree-Logic-2.pdf">PDF-4-2</a>, <a href="slides/fav/source/4-2.zip">Latex-4-2</a>; </li>
+			   <li><a href="slides/fav/4-Computation-Tree-Logic-3.pdf">PDF-4-3</a>, <a href="slides/fav/source/4-3.zip">Latex-4-3</a>. </li>
+			</ul>            
+			</p>
+			<p>Lecture-5: Equivalences and Abstraction (<a href="">PDF</a>)</p>
+			<p>Lecture-6: Partial Order Reduction (<a href="">PDF</a>)</p>
+			<p>Lecture-7: Timed Automata (<a href="">PDF</a>)</p>
+			<p>Lecture-8: Hybrid Automata (<a href="">PDF</a>)</p>   
+		</div>
+    </div>	
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">References     </h3>
+        </div>
+        <div class="panel-body">
+		    <ul class="list-group">
+               <li class="list-group-item">Christel Baier and Joost-Pieter Katoen: Principles of Model Checking </li>
+			   <li class="list-group-item">Aaron R. Bradley and Zohar Manna: The Calculus of Computation </li>
+			   <li class="list-group-item">Mordechai Ben-Ari: Aaron R. Bradley and Zohar Manna: Mathematical Logic for Computer Science </li>
 			</ul>            
 		</div>
     </div>	
